@@ -38,4 +38,4 @@ while True:
 		
 	sum += hour
 
-	print("Sum = " + str(sum))
+	print("Sum = " + "%.2dh%.2dm" % (sum.seconds//3600,(sum.seconds//60)%60) )
